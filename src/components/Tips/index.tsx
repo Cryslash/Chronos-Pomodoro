@@ -10,7 +10,7 @@ export function Tips() {
   const tipsForWhenActiveTask = {
     workTime: (
       <span>
-        Foque por <b>{state.config.workTime}min</b>
+        Nesse ciclo <b>Foque</b> por <b>{state.config.workTime}min</b>
       </span>
     ),
     shortBreakTime: (
