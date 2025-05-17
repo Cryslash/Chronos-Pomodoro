@@ -3,7 +3,7 @@ import { Cycles } from '../Cycles';
 import { DefaultButton } from '../DefaultButton';
 import { DefaultInput } from '../DefaultInput';
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
-import { startTransition, useRef } from 'react';
+import { useRef } from 'react';
 import type { TaskModel } from '../../models/TaskModel';
 import { useTaskContext } from '../../contexts/TaskContext/useTaskContext';
 import { getNextCyle } from '../../utils/ getNextCycle';
